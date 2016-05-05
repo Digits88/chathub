@@ -1,0 +1,6 @@
+id:
+    generic
+name:
+    generic
+aiml:
+    - ../../generic_aiml/*.aiml
