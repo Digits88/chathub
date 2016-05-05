@@ -18,6 +18,21 @@ But you can overwrite it by setting the environment variable `HR_CHARACTER_PATH`
 It loads every python module except `__init__.py` in every character path in `HR_CHARACTER_PATH`, and finds the global `characters` in this module.
 Then it appends the characters to its character list `CHARACTERS`. See `characters/__init__.py`
 
+## Docker
+
+### Run Docker Server
+
+```shell
+./run-server.sh
+```
+
+### Build Docker Image
+
+```shell
+./build-docker-image.sh
+```
+
+
 ## Define a Character
 ### Define an AIML character
 
