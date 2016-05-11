@@ -1,5 +1,10 @@
 This is a premature question-answering platform. The goal is to provide a ROS independent, scalable, platform-independent QA.
 
+## Install Dependencies
+
+[sudo] pip install Flask
+[sudo] apt-get install python-yaml
+
 ## Run Server
 ```shell
 cd server
